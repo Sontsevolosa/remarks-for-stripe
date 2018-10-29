@@ -10,6 +10,8 @@ CVV (example):
 123
 
 
+======================
+
 
 create test token:
 Stripe::Token.create(card: { number: "4242424242424242", exp_month: 10, exp_year: 2019, cvc: 314 })
